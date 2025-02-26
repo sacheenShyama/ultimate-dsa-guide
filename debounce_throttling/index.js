@@ -23,7 +23,7 @@ const myFunction = function (event) {
 
 searchInput.addEventListener("input", debounce(myFunction, 500));
 
-// Throttling
+// Throttling code
 
 const button = document.getElementById("clickButton");
 
